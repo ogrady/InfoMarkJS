@@ -1,5 +1,5 @@
 {
-  "name": "InfoMarkJS",
+  "name": "infomarkjs",
   "version": "1.0.0",
   "description": "Pretty incomplete wrapper of the Infomark API.",
   "main": "index.js",
