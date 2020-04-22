@@ -1,0 +1,37 @@
+{
+  "name": "InfoMarkJS",
+  "version": "1.0.0",
+  "description": "Pretty incomplete wrapper of the Infomark API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "start:dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Daniel O'Grady",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/lodash": "^4.14.149",
+    "@types/mocha": "^7.0.2",
+    "better-sqlite3": "^6.0.1",
+    "better-sqlite3-helper": "^2.3.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.1",
+    "moment": "^2.24.0",
+    "winston": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogrady/InfoMarkJS.git"
+  },
+  "files": ["build/**/*"]
+}
